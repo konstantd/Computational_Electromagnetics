@@ -238,6 +238,7 @@ This photo does not represent a mode, so it is ignored.
 <p allign = "center">
      <img src="/ProjectB/photos/B1/B1.7.png"width = "50%">
 </p>
+
 - <u>TM01</u>
 
 <p allign = "center">
@@ -257,16 +258,19 @@ This photo does not represent a mode, so it is ignored.
 <p allign = "center">
      <img src="/ProjectB/photos/B1/TM11.png"width = "50%">
 </p>
+
 - <u>TM12</u>
 
 <p allign = "center">
      <img src="/ProjectB/photos/B1/TM12.png"width = "50%">
 </p>
+
 - <u>TM21</u>
 
 <p allign = "center">
      <img src="/ProjectB/photos/B1/TM21.png"width = "50%">
 </p>
+
 - <u>TM31</u>
 
 <p allign = "center">
@@ -279,7 +283,7 @@ This photo does not represent a mode, so it is ignored.
 We can compare our results with the below photo, representing modes of a circular waveguide.
 
 <p allign = "center">
-     <img src="/ProjectB/photos/B1/modes.png"width = "50%">
+     <img src="/ProjectB/photos/B1/modes.png"width = "70%">
 </p>
 
 
@@ -289,11 +293,9 @@ We can compare our results with the below photo, representing modes of a circula
 
 Now that we have found the cut-off wavenumbers k_c , we can easily find the corresponding cut-off frequencies f_c using the below line:
 
-$$
-\begin{align*}
-f_c = \frac{c\ k _c}{2π}
-\end{align*}
-$$
+```
+f_c = c*k _c/2π
+```
 
 
 In the below tables we can see the **relative error** of the simulations of the cut-off frequencies (reference the analytical solutions), for different number of refinements.
@@ -327,7 +329,7 @@ In this project the electromagnetic **scattering from a perfect electromagnetic 
 
 
 <p allign = "center">
-     <img src="/ProjectB/photos/B2/E_inc.png"width = "40%">
+     <img src="/ProjectB/photos/B2/E_inc.png"width = "35%">
 </p>
 
 
@@ -362,14 +364,14 @@ As we create the geometry, Matlab automatically defines the numbering of the reg
 
 Parameter a is constant and we choose β so that we have a reflection coefficient of 10^(-6) in the vertical incidence (β depends from the thickness d of the PML).
 <p allign = "center">
-     <img src="/ProjectB/photos/B2/a_param.png"width = "40%">
+     <img src="/ProjectB/photos/B2/a_param.png"width = "35%">
 </p>
  The formation of the matrixes is very similar to the Electrostatic Problem. Except from the local stiffness matrix, the local mass matrix is calculated in this case too. The total matrix of the system will be a matrix A that will be calculated from the aggregation of the local matrixes. 
 
 
 
 <p allign = "center">
-     <img src="/ProjectB/photos/B2/A_e.png"width = "30%">
+     <img src="/ProjectB/photos/B2/A_e.png"width = "20%">
 </p>
 
 
@@ -377,7 +379,7 @@ Parameter a is constant and we choose β so that we have a reflection coefficien
 At the boundary of the scatter, non-homogeneous Dirichlet conditions are applied. 
 
 <p allign = "center">
-     <img src="/ProjectB/photos/B2/Dirichlet.png"width = "30%">
+     <img src="/ProjectB/photos/B2/Dirichlet.png"width = "20%">
 </p>
 
 Therefore at each node of the scatter's boundary, the scattering field will be known and equal to the incident. On the contrary, at the external border (termination of the PML) we will apply the most simple boundary conditions, homogeneous Neumann, so the nodes of the external border will be unknown. The arrays node_id, index and X0 will be defined by the scattering boundary nodes.
