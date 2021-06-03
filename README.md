@@ -29,7 +29,7 @@ The goal of this project is to implement Finite Element Analysis in order to sim
 
 
 <p allign = "center">
-     <img src="/ProjectA/photos/A1.1.png"width = "70%">
+     <img src="/ProjectA/photos/A1.1.png"width = "50%">
 </p>
 
 
@@ -45,7 +45,7 @@ We fill the vector X0 (it still has only the values of the known nodes) with unk
 - Using the **pdegrad** function, we find and visualize the vector E field.
 
  <p allign = "center">
-     <img src="/ProjectA/photos/A1.2.png"width = "70%">
+     <img src="/ProjectA/photos/A1.2.png"width = "50%">
 </p>
 
 In the below table we can compare the results for different number of refinements and write down the Degrees of Freedom in the below table.
