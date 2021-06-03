@@ -338,7 +338,7 @@ In this project the electromagnetic **scattering from a perfect electromagnetic 
 A **PML (Perfectly Matched Layer)** was used as an absorbing layer. The field was simulated for different wavelength and different PML thickness. The illustration of the field inside the PML was not included because of the non-existence meaning. The unknown variable of the problem is the z component of the scattered electric field. The distance of the PML (from its four sides) to the cylinder is w ("air") . Below, we can see the geometry and the respective areas.
 
 <p allign = "center">
-     <img src="/ProjectB/photos/B2/B2.0.png"width = "70%">
+     <img src="/ProjectB/photos/B2/B2.0.png"width = "50%">
 </p>
 
 
@@ -346,7 +346,7 @@ A **PML (Perfectly Matched Layer)** was used as an absorbing layer. The field wa
 Completing the geometry we get our original grid with a refinement. (However, we will not need the PML-areas, when we visualize the EM field, for the above reason.)
 
 <p allign = "center">
-     <img src="/ProjectB/photos/B2/B2.1.png"width = "70%">
+     <img src="/ProjectB/photos/B2/B2.1.png"width = "50%">
 </p>
 
 
@@ -357,7 +357,7 @@ Since we have defined the field in the known nodes, (those that are located on t
 As we create the geometry, Matlab automatically defines the numbering of the regions, which are shown in the image below in blue font.
 
 <p allign = "center">
-     <img src="/ProjectB/photos/B2/B2.2.png"width = "50%">
+     <img src="/ProjectB/photos/B2/B2.2.png"width = "40%">
 </p>
 
 
