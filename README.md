@@ -357,14 +357,14 @@ Since we have defined the field in the known nodes, (those that are located on t
 As we create the geometry, Matlab automatically defines the numbering of the regions, which are shown in the image below in blue font.
 
 <p allign = "center">
-     <img src="/ProjectB/photos/B2/B2.2.png"width = "70%">
+     <img src="/ProjectB/photos/B2/B2.2.png"width = "50%">
 </p>
 
 
 
 Parameter a is constant and we choose β so that we have a reflection coefficient of 10^(-6) in the vertical incidence (β depends from the thickness d of the PML).
 <p allign = "center">
-     <img src="/ProjectB/photos/B2/a_param.png"width = "35%">
+     <img src="/ProjectB/photos/B2/a_param.png"width = "20%">
 </p>
  The formation of the matrixes is very similar to the Electrostatic Problem. Except from the local stiffness matrix, the local mass matrix is calculated in this case too. The total matrix of the system will be a matrix A that will be calculated from the aggregation of the local matrixes. 
 
@@ -376,7 +376,7 @@ Parameter a is constant and we choose β so that we have a reflection coefficien
 
 
 
-At the boundary of the scatter, non-homogeneous Dirichlet conditions are applied. 
+At the boundary of the scatter, non-homogeneous Dirichlet conditions are applie: 
 
 <p allign = "center">
      <img src="/ProjectB/photos/B2/Dirichlet.png"width = "20%">
