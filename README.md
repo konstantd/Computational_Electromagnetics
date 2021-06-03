@@ -388,14 +388,14 @@ The script plots different cases for the parameters of diameter and thickness, e
 
 
 
-- <u>d = 0.25, a = 0.25</u>
+- <u>d = 1, a = 0.25 </u>
 
 <p allign = "center">
      <img src="/ProjectB/photos/B2/B2.3.png"width = "50%">
 </p>
 
 
-- <u>d = 1, a = 1</u>
+- <u>d = 0.25, a = 2.50 </u>
 
 <p allign = "center">
      <img src="/ProjectB/photos/B2/B2.7.png"width = "50%">
