@@ -111,14 +111,14 @@ Capacitor (infinite length) of parallel plates of finite width w and thickness t
      <img src="/ProjectA/photos/A2.1.png"width = "70%">
 </p>
 
-- Visualization of potential:
+- Visualization of the Electric field:
 
 <p allign = "center">
      <img src="/ProjectA/photos/A2.3.png"width = "50%">
 </p>
 
 
-- Visualization of the Electric field:
+- Visualization of potential:
 
 <p allign = "center">
      <img src="/ProjectA/photos/A2.2.png"width = "70%">
