@@ -12,7 +12,7 @@ The below simulations were examined:
 <u>Electromagnetic wave propagation:</u>
 
 - B1 - **Metallic circular waveguide modes (TM/TE)**
-- B2 - **Scattering from a Perfect Electromagnetic Conductor cylinder**
+- B2 - **Scattering from a Perfect Electric Conductor (PEC) cylinder**
 
 
 
