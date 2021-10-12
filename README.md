@@ -322,7 +322,7 @@ The results are excellent both for TE and TM. It seems that we have slightly bet
 
 
 
-## B2 - Scattering from a PEC cylinder
+## B2 - Scattering from a PEC cylinder with PML
 
 In this project the electromagnetic **scattering from a perfect electric conductor cylinder**, is considered. The conductor is embedded in the air and a uniform electromagnetic wave on TM mode is approaching it:
 
