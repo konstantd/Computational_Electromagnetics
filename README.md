@@ -22,7 +22,7 @@ The goal of this project is to implement Finite Element Analysis in order to sim
 
 
 
-### A1 - Coaxial air-dielectric cable
+## A1 - Coaxial air-dielectric cable
 
 - Originally , we define the variables that describe the geometry (radius of the interior and external conductor) and construct the geometry description table. We use the **decsg** function to make the decomposed solid geometry matrix, excluding the internal area of the conductor. We make the original grid with **initmesh** function. For 1 refinement we get this geometry:
 
@@ -101,7 +101,7 @@ In the below table we can see the relative error of the system, in comparison to
 
 We notice a significant improvement with 2 and 3 refinements. Improving the relevant error with 4 refinements is not considered significant.
 
-### A2 - Finite parallel-plate capacitor
+## A2 - Finite parallel-plate capacitor
 
 Capacitor (infinite length) of parallel plates of finite width w and thickness t has dielectric relative dielectric constant εr between the plates, which are at a distance d, is considered. The calculation area has dimensions Α × Β (Α = Β = 5w) and the capacitor is in the center of it. The potential is V / 2 on the top plate and -V / 2 on the bottom plate. In the external border **Neumann boundary conditions** are considered. We follow the same logic as in A1. The essential difference with respect to A.1 is that for the formation of the vectors node_id and X0, coordinates of the external nodes in table e are  also considered.
 
@@ -153,7 +153,7 @@ We observe very high accuracy here as well. However, the more refinements the sl
 
 
 
-### B1 - Metallic circular waveguide modes (TM/TE)
+## B1 - Metallic circular waveguide modes (TM/TE)
 
 The goal of this project is to illustrate the first 9 **modes (TM or TE) in a metallic circular waveguide**, filled with air. Cutoff frequencies and their relative errors in comparison to the analytical solutions for different number of refinements were also calculated. 
 
@@ -322,7 +322,7 @@ The results are excellent both for TE and TM. It seems that we have slightly bet
 
 
 
-### B2 - Scattering from a Perfect Electromagnetic Conductor cylinder
+## B2 - Scattering from a Perfect Electromagnetic Conductor cylinder
 
 In this project the electromagnetic **scattering from a perfect electromagnetic conductor cylinder**, is considered. The conductor is embedded in the air and a uniform electromagnetic wave on TM mode is approaching it:
 
